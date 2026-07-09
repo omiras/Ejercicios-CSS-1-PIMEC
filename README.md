@@ -1,8 +1,8 @@
 # Ejercicios básicos CSS
 
 1. Abre el HTML dentro de cada carpeta con Live Server
-2. Mira [este vídeo](https://oscarm.tinytake.com/msc/ODcxODgxN18yMjExNTExNg) para ver el diseñó de cómo debe quedar todo. Pon el audio.
-3. También tienes 3 imagenes con el diseño esperado en esta misma carpeta
+2. Mira [este vídeo](https://oscarm.tinytake.com/msc/ODcxODgxN18yMjExNTExNg) para ver el diseñó de cómo debe quedar todo. Pon el audio. Nota: el vídeo contiene algunos ejercicios que ya no están, pero no importa, la explicación es útil para los demás ejercicios
+3. También tienes 3 imagenes con el diseño esperado en esta misma carpeta.
 
 ## Consejos
 
