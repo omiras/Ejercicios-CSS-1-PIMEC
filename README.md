@@ -1,6 +1,7 @@
 # Ejercicios básicos de CSS
 
-Abre cada HTML con Live Server. Compara tu resultado con las imágenes de referencia y prueba distintas clases y propiedades CSS. L
+Abre cada HTML con Live Server. Compara tu resultado con las imágenes de referencia y prueba distintas clases y propiedades CSS. 
+Mira [este vídeo](https://oscarm.tinytake.com/msc/ODcxODgxN18yMjExNTExNg) para ver el diseñó de cómo debe quedar todo. Pon el audio. Nota: el vídeo contiene algunos ejercicios que ya no están, pero no importa, la explicación es útil para los demás ejercicios.
 
 | Ejercicio | Diseño esperado | Colores aproximados de la captura |
 |---|---|---|
