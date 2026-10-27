@@ -13,6 +13,7 @@ Los códigos de color son aproximaciones de las capturas: pueden variar según p
 
 ## Recursos W3Schools: enlaces directos «Try it»
 
+- [Estilizar elementos HTML usando selectores de etiqueta](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_internal)
 - [Clases CSS: aplica un estilo a varios elementos](https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_class)
 - [Atributo `class` en HTML](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_css)
 - [Color de fondo de la página](https://www.w3schools.com/css/tryit.asp?filename=trycss_background-color_body)
