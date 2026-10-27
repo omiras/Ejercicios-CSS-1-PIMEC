@@ -1,10 +1,69 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><title>Adivina, adivinanza...</title><style>
-body{background:#ffebce;font-family:Arial,sans-serif}h1{color:#995900;text-transform:uppercase;font-size:44px}.pregunta{color:#ff8c00;font-size:44px}.peliculas{padding:0;list-style:none}.pelicula{margin:16px 0;font-size:84px;line-height:1.15}.pelicula::before{content:'▶';display:inline-block;width:84px;font-size:60px}.emojis{display:inline-block;background:white;white-space:nowrap}.rosa{background:#ffc9e9}
-</style></head><body><main><h1>Adivina, adivinanza ...</h1><p class="pregunta">¿Sabrías decir los títulos de estas películas?</p><ul class="peliculas">
-<li class="pelicula"><span class="emojis rosa" aria-label="Planeta y tres monos">🌍🐵🐵🐵</span></li>
-<li class="pelicula"><span class="emojis" aria-label="Pistola y tres fantasmas">🔫👻👻👻</span></li>
-<li class="pelicula"><span class="emojis rosa" aria-label="Cuatro novias y un cráneo">👰👰👰👰💀</span></li>
-<li class="pelicula"><span class="emojis" aria-label="Cuchillo y ducha">🔪🚿</span></li>
-<li class="pelicula"><span class="emojis rosa" aria-label="Silencio y tres corderos">🔇🐑🐑🐑</span></li>
-</ul></main></body></html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Adivina, adivinanza...</title>
+    <style>
+        body {
+            background: #ffebce;
+            font-family: Arial, sans-serif
+        }
+
+        h1 {
+            color: #995900;
+            text-transform: uppercase;
+            font-size: 44px
+        }
+
+
+        p {
+            font-size: 2rem;
+        }
+
+        p.intro {
+            color: hwb(35 0% 0%);
+        }
+
+        summary {
+            font-size: 4rem;
+        }
+
+        span.par {
+            background-color: white;
+        }
+
+        span.impar {
+            background-color: hwb(325 80% 0%);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Adivina, adivinanza ...</h1>
+        <p class="intro">¿Sabrías decir los títulos de estas películas?</p>
+        <details>
+            <summary><span class="par">🌍🐵🐵🐵</span></summary>
+            <p class="respuesta">El planeta de los simios</p>
+        </details>
+        <details>
+            <summary><span class="impar">🔫👻👻👻</span></summary>
+            <p class="respuesta">Los cazafantasmas</p>
+        </details>
+        <details>
+            <summary><span class="par">👰👰👰👰💀</span></summary>
+            <p class="respuesta">Cuatro bodas y un funeral</p>
+        </details>
+        <details>
+            <summary><span class="impar">🔪🚿</span></summary>
+            <p class="respuesta">Psicosis</p>
+        </details>
+        <details>
+            <summary><span class="par">🔇🐑🐑🐑</span></summary>
+            <p class="respuesta">El silencio de los corderos</p>
+        </details>
+    </main>
+</body>
+
+</html>

@@ -24,7 +24,7 @@ Los códigos de color son aproximaciones de las capturas: pueden variar según p
 - `section` con `h2` para cada apartado del currículum; `footer` para autor y fecha.
 - `h1` para el título de cada página; `h2` y `h3` para subtítulos.
 - `p` para la introducción y cada greguería; `span` con una clase para destacar partes de una línea.
-- `ul` y `li` para las cinco películas; cada fila representa un elemento de la lista.
+- `details` y `summary` para las cinco películas: el resumen muestra los emojis y al desplegarlo aparece la respuesta.
 - `article` si se desea presentar una greguería como pieza independiente.
 
 No hace falta usar todas las etiquetas. Escoge las que describan el contenido y añade clases donde necesites compartir un estilo.
