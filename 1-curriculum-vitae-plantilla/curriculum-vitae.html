@@ -3,26 +3,62 @@
 <head>
   <meta charset="utf-8">
   <title>Sin título. Escribe tu nombre. Ejercicios. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+
+  <!-- Queremos que todas las etiquetas de un determinado tipo tengan mismos esitlos, usamos un selector de etiqueta (tag selector)-->
+
+  <!-- En este ejemplo, aplicamos todos los estilos entre las llaves {} para TODAS las etiquetas <b> y <h2>, respectivamente. -->
+   <style>
+    b {
+      color: #006da5;
+      font-weight: 200;
+    }
+    
+    h2 {
+      background-color: #809ba8; 
+      color: #333333; 
+      font-size: 28px; 
+      text-decoration: underline;
+    } 
+
+    p {
+      background-color: #d7dfe3;
+    }
+
+    strong {
+      color: #006da5;
+    }
+
+    footer {
+      text-align: right; 
+      background-color: aquamarine;
+    }
+
+
+    
+   </style>
+
 </head>
 
 <body>
-  Currículum Vitae de Atanagildo Aguirre Pacheco
+  <!-- El ; separa las diferentes propiedades CSS -->
+  <h1 style="text-transform: uppercase; text-align: center;">Currículum Vitae de Atanagildo Aguirre Pacheco</h1>
 
-  Este es un ejemplo de currículum vitae. Cualquier parecido con la realidad es pura coincidencia. Este currículum cuenta con pocos apartados para que el ejercicio se pueda hacer rápidamente. En un ejercicio posterior se puede ver un ejemplo de currículum vitae más completo.
+ <p style="background-color: #d7dfe3;">Este es un ejemplo de currículum vitae. Cualquier parecido con la realidad es pura coincidencia. Este currículum cuenta con pocos apartados para que el ejercicio se pueda hacer rápidamente. En un ejercicio posterior se puede ver un ejemplo de currículum vitae más completo.</p>
 
-  Datos personales
+  <h2>Datos personales</h2>
 
-  Nombre y Apellidos: Atanagildo Aguirre Pacheco
+  <p>
+    <b>Nombre y Apellidos:</b> Atanagildo Aguirre Pacheco <br>
+    <b>Dirección:</b> C./ Toledo, nº 13, p. 7 - 46027 Valencia <br>
+    <b>D.N.I.:</b> 27.182.818-S
+  </p>
+ 
+  <h2>Educación y formación</h2>
 
-  Dirección: C./ Toledo, nº 13, p. 7 - 46027 Valencia
-
-  D.N.I.: 27.182.818-S
-
-  Educación y formación
-
-  2015-2017: Ciclo Formativo de Grado Superior Administración de Sistemas Informáticos en Red (modalidad semipresencial). Instituto de Enseñanza Secundaria Abastos (Valencia).
-
-  2013-2015: Ciclo Formativo de Grado Superior Desarrollo de Aplicaciones Multiplataforma. Patraix Institute of Technology (Patraix).
+  <p>
+    <b>2015-2017:</b> Ciclo Formativo de Grado Superior Administración de Sistemas Informáticos en Red (modalidad semipresencial). <strong> Instituto de Enseñanza Secundaria Abastos </strong>(Valencia). <br>
+    <b>2013-2015: </b>Ciclo Formativo de Grado Superior Desarrollo de Aplicaciones Multiplataforma. <strong>Patraix Institute of Technology </strong>(Patraix).
+  </p>
 
   Capacidades y aptitudes personales
 
@@ -32,8 +68,9 @@
 
   Valenciano: Nivel Medio. Certificado de Coneixements de Valencià Grau Mitjà, por la Junta Qualificadora de Coneixements de Valencià. Conselleria d'Educació, Investigació, Cultura i Esport.
 
-  Autor: Atanagildo Aguirre Pacheco
-
-  Última modificación de esta página: 14 de octubre de 2016
+  <footer>
+    Autor: Atanagildo Aguirre Pacheco <br>
+    Última modificación de esta página: 14 de octubre de 2016
+  </footer>
 </body>
 </html>
