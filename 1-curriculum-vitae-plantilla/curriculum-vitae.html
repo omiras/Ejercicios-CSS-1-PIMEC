@@ -8,6 +8,14 @@
 
   <!-- En este ejemplo, aplicamos todos los estilos entre las llaves {} para TODAS las etiquetas <b> y <h2>, respectivamente. -->
    <style>
+
+    body {
+      background-color: #d7dfe3;
+
+      /* Intenta cargar la fuente Arial. Si no pudieras, usa la que tengas por defecto sin serifa */
+      font-family: Arial, sans-serif;
+    }
+
     b {
       color: #006da5;
       font-weight: 200;
@@ -18,7 +26,13 @@
       color: #333333; 
       font-size: 28px; 
       text-decoration: underline;
-    } 
+    }
+    
+    h3 {
+      font-style: italic;
+      background-color: #a5b7bf;
+      color: #607782;
+    }
 
     p {
       background-color: #d7dfe3;
@@ -30,7 +44,10 @@
 
     footer {
       text-align: right; 
-      background-color: aquamarine;
+      background-color: white;
+      font-weight: bold;
+      font-style: italic;
+
     }
 
 
@@ -60,13 +77,15 @@
     <b>2013-2015: </b>Ciclo Formativo de Grado Superior Desarrollo de Aplicaciones Multiplataforma. <strong>Patraix Institute of Technology </strong>(Patraix).
   </p>
 
-  Capacidades y aptitudes personales
+  <h2>Capacidades y aptitudes personales</h2>
 
-  Idiomas
+  <h3>Idiomas</h3>
 
-  Inglés: Nivel Alto. Título nivel C1, por la Escuela Oficial de Idiomas de Valencia.
+  <b>Inglés:</b> Nivel Alto. Título nivel C1, por la <strong>Escuela Oficial de Idiomas de Valencia.</strong>. Con nota del trabajo final de grado de matricula de honor. <br>
 
-  Valenciano: Nivel Medio. Certificado de Coneixements de Valencià Grau Mitjà, por la Junta Qualificadora de Coneixements de Valencià. Conselleria d'Educació, Investigació, Cultura i Esport.
+  <b>Valenciano:</b> Nivel Medio. Certificado de Coneixements de Valencià Grau Mitjà, por la <strong>Junta Qualificadora de Coneixements de Valencià</strong>. Conselleria d'Educació, Investigació, Cultura i Esport.
+
+  <hr>
 
   <footer>
     Autor: Atanagildo Aguirre Pacheco <br>
